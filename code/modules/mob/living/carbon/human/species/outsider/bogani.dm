@@ -24,6 +24,7 @@
 	flash_mod = 1.7                    // Stun from blindness modifier.
 
 	gluttonous = GLUT_TINY
+	spawn_flags = SPECIES_IS_RESTRICTED
 
 	cold_level_1 = 240
 	cold_level_2 = 180
@@ -45,8 +46,8 @@
 
 
 	breath_pressure = 28
-	breath_type = "phoron"
-	poison_type = "oxygen"
+	breath_type = "chlorine"
+	poison_type = list("oxygen")
 	siemens_coefficient = 0.1
 
 	genders = list(NEUTER)
@@ -100,8 +101,8 @@
 
 
 
-	breath_type = "phoron"
-	poison_type = "oxygen"
+	breath_type = "chlorine"
+	poison_type = list("oxygen")
 	siemens_coefficient = 0.9
 
 	genders = list(NEUTER)
